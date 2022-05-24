@@ -30,7 +30,8 @@
 		867543AF283C800B002364DD /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867543AE283C800B002364DD /* Color+Extension.swift */; };
 		867543B1283C8D2F002364DD /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867543B0283C8D2F002364DD /* Array+Extension.swift */; };
 		867543B3283C9DA0002364DD /* StandingRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867543B2283C9DA0002364DD /* StandingRow.swift */; };
-		867543B7283CC0BB002364DD /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 867543B6283CC0BB002364DD /* Core */; };
+		86FC7290283CC7FB0058B5FF /* Core in Resources */ = {isa = PBXBuildFile; fileRef = 86FC728F283CC7FB0058B5FF /* Core */; };
+		86FC7292283CC8100058B5FF /* Core in Frameworks */ = {isa = PBXBuildFile; productRef = 86FC7291283CC8100058B5FF /* Core */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +79,7 @@
 		867543AE283C800B002364DD /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		867543B0283C8D2F002364DD /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
 		867543B2283C9DA0002364DD /* StandingRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandingRow.swift; sourceTree = "<group>"; };
-		867543B5283CC09E002364DD /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
+		86FC728F283CC7FB0058B5FF /* Core */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Core; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				867543B7283CC0BB002364DD /* Core in Frameworks */,
+				86FC7292283CC8100058B5FF /* Core in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +111,7 @@
 		8666D9E2283A45CE003A774C = {
 			isa = PBXGroup;
 			children = (
-				867543B4283CC09E002364DD /* Packages */,
+				86FC728F283CC7FB0058B5FF /* Core */,
 				8666D9ED283A45CE003A774C /* Football */,
 				8666DA04283A45D1003A774C /* FootballTests */,
 				8666DA0E283A45D1003A774C /* FootballUITests */,
@@ -229,14 +230,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		867543B4283CC09E002364DD /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				867543B5283CC09E002364DD /* Core */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,7 +247,7 @@
 			);
 			name = Football;
 			packageProductDependencies = (
-				867543B6283CC0BB002364DD /* Core */,
+				86FC7291283CC8100058B5FF /* Core */,
 			);
 			productName = Football;
 			productReference = 8666D9EB283A45CE003A774C /* Football.app */;
@@ -345,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8666D9F8283A45D1003A774C /* Assets.xcassets in Resources */,
+				86FC7290283CC7FB0058B5FF /* Core in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,7 +702,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		867543B6283CC0BB002364DD /* Core */ = {
+		86FC7291283CC8100058B5FF /* Core */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Core;
 		};
