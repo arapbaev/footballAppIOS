@@ -1,0 +1,40 @@
+{
+  "status": true,
+  "data": {
+    "desc": "Available seasons standings data",
+    "seasons": [
+      {
+        "year": 2021,
+        "startDate": "2021-06-01T04:00Z",
+        "endDate": "2022-06-01T03:59Z",
+        "displayName": "2021-22 English Premier League",
+        "types": [
+          {
+            "id": "1",
+            "name": "2021-22 English Premier League",
+            "abbreviation": "2021-22 English Premier League",
+            "startDate": "2021-06-01T04:00Z",
+            "endDate": "2022-06-01T03:59Z",
+            "hasStandings": true
+          }
+        ]
+      },
+      {
+        "year": 2020,
+        "startDate": "2020-08-01T04:00Z",
+        "endDate": "2021-06-01T03:59Z",
+        "displayName": "2020-21 English Premier League",
+        "types": [
+          {
+            "id": "1",
+            "name": "2020-21 English Premier League",
+            "abbreviation": "2020-21 English Premier League",
+            "startDate": "2020-08-01T04:00Z",
+            "endDate": "2021-06-01T03:59Z",
+            "hasStandings": true
+          }
+        ]
+      }
+    ]
+  }
+}
