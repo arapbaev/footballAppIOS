@@ -1,98 +1,184 @@
 {
-  "images" : [
-    {
-      "idiom" : "iphone",
-      "scale" : "2x",
-      "size" : "20x20"
-    },
-    {
-      "idiom" : "iphone",
-      "scale" : "3x",
-      "size" : "20x20"
-    },
-    {
-      "idiom" : "iphone",
-      "scale" : "2x",
-      "size" : "29x29"
-    },
-    {
-      "idiom" : "iphone",
-      "scale" : "3x",
-      "size" : "29x29"
-    },
-    {
-      "idiom" : "iphone",
-      "scale" : "2x",
-      "size" : "40x40"
-    },
-    {
-      "idiom" : "iphone",
-      "scale" : "3x",
-      "size" : "40x40"
-    },
-    {
-      "idiom" : "iphone",
-      "scale" : "2x",
-      "size" : "60x60"
-    },
-    {
-      "idiom" : "iphone",
-      "scale" : "3x",
-      "size" : "60x60"
-    },
-    {
-      "idiom" : "ipad",
-      "scale" : "1x",
-      "size" : "20x20"
-    },
-    {
-      "idiom" : "ipad",
-      "scale" : "2x",
-      "size" : "20x20"
-    },
-    {
-      "idiom" : "ipad",
-      "scale" : "1x",
-      "size" : "29x29"
-    },
-    {
-      "idiom" : "ipad",
-      "scale" : "2x",
-      "size" : "29x29"
-    },
-    {
-      "idiom" : "ipad",
-      "scale" : "1x",
-      "size" : "40x40"
-    },
-    {
-      "idiom" : "ipad",
-      "scale" : "2x",
-      "size" : "40x40"
-    },
-    {
-      "idiom" : "ipad",
-      "scale" : "1x",
-      "size" : "76x76"
-    },
-    {
-      "idiom" : "ipad",
-      "scale" : "2x",
-      "size" : "76x76"
-    },
-    {
-      "idiom" : "ipad",
-      "scale" : "2x",
-      "size" : "83.5x83.5"
-    },
-    {
-      "idiom" : "ios-marketing",
-      "scale" : "1x",
-      "size" : "1024x1024"
+    "images" : [
+        {
+            "filename" : "40.png",
+            "idiom" : "iphone",
+            "scale" : "2x",
+            "size" : "20x20",
+            "expectedSize" : 40
+        },
+        {
+            "filename" : "60.png",
+            "idiom" : "iphone",
+            "scale" : "3x",
+            "size" : "20x20",
+            "expectedSize" : 60
+        },
+        {
+            "filename" : "29.png",
+            "idiom" : "iphone",
+            "scale" : "1x",
+            "size" : "29x29",
+            "expectedSize" : 29
+        },
+        {
+            "filename" : "58.png",
+            "idiom" : "iphone",
+            "scale" : "2x",
+            "size" : "29x29",
+            "expectedSize" : 58
+        },
+        {
+            "filename" : "87.png",
+            "idiom" : "iphone",
+            "scale" : "3x",
+            "size" : "29x29",
+            "expectedSize" : 87
+        },
+        {
+            "filename" : "80.png",
+            "idiom" : "iphone",
+            "scale" : "2x",
+            "size" : "40x40",
+            "expectedSize" : 80
+        },
+        {
+            "filename" : "120.png",
+            "idiom" : "iphone",
+            "scale" : "3x",
+            "size" : "40x40",
+            "expectedSize" : 120
+        },
+        {
+            "filename" : "57.png",
+            "idiom" : "iphone",
+            "scale" : "1x",
+            "size" : "57x57",
+            "expectedSize" : 57
+        },
+        {
+            "filename" : "114.png",
+            "idiom" : "iphone",
+            "scale" : "2x",
+            "size" : "57x57",
+            "expectedSize" : 114
+        },
+        {
+            "filename" : "120.png",
+            "idiom" : "iphone",
+            "scale" : "2x",
+            "size" : "60x60",
+            "expectedSize" : 120
+        },
+        {
+            "filename" : "180.png",
+            "idiom" : "iphone",
+            "scale" : "3x",
+            "size" : "60x60",
+            "expectedSize" : 180
+        },
+        {
+            "filename" : "20.png",
+            "idiom" : "ipad",
+            "scale" : "1x",
+            "size" : "20x20",
+            "expectedSize" : 20
+        },
+        {
+            "filename" : "40.png",
+            "idiom" : "ipad",
+            "scale" : "2x",
+            "size" : "20x20",
+            "expectedSize" : 40
+        },
+        {
+            "filename" : "29.png",
+            "idiom" : "ipad",
+            "scale" : "1x",
+            "size" : "29x29",
+            "expectedSize" : 29
+        },
+        {
+            "filename" : "58.png",
+            "idiom" : "ipad",
+            "scale" : "2x",
+            "size" : "29x29",
+            "expectedSize" : 58
+        },
+        {
+            "filename" : "40.png",
+            "idiom" : "ipad",
+            "scale" : "1x",
+            "size" : "40x40",
+            "expectedSize" : 40
+        },
+        {
+            "filename" : "80.png",
+            "idiom" : "ipad",
+            "scale" : "2x",
+            "size" : "40x40",
+            "expectedSize" : 80
+        },
+        {
+            "filename" : "50.png",
+            "idiom" : "ipad",
+            "scale" : "1x",
+            "size" : "50x50",
+            "expectedSize" : 50
+        },
+        {
+            "filename" : "100.png",
+            "idiom" : "ipad",
+            "scale" : "2x",
+            "size" : "50x50",
+            "expectedSize" : 100
+        },
+        {
+            "filename" : "72.png",
+            "idiom" : "ipad",
+            "scale" : "1x",
+            "size" : "72x72",
+            "expectedSize" : 72
+        },
+        {
+            "filename" : "144.png",
+            "idiom" : "ipad",
+            "scale" : "2x",
+            "size" : "72x72",
+            "expectedSize" : 144
+        },
+        {
+            "filename" : "76.png",
+            "idiom" : "ipad",
+            "scale" : "1x",
+            "size" : "76x76",
+            "expectedSize" : 76
+        },
+        {
+            "filename" : "152.png",
+            "idiom" : "ipad",
+            "scale" : "2x",
+            "size" : "76x76",
+            "expectedSize" : 152
+        },
+        {
+            "filename" : "167.png",
+            "idiom" : "ipad",
+            "scale" : "2x",
+            "size" : "83.5x83.5",
+            "expectedSize" : 167
+        },
+        {
+            "filename" : "1024.png",
+            "idiom" : "ios-marketing",
+            "scale" : "1x",
+            "size" : "1024x1024",
+            "expectedSize" : 1024
+        }
+    ],
+    "info" : {
+        "author" : "xcode",
+        "version" : 1
     }
-  ],
-  "info" : {
-    "author" : "xcode",
-    "version" : 1
-  }
 }
+
