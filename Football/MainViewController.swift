@@ -147,10 +147,10 @@ extension MainViewController: UINavigationControllerDelegate {
             return .allLeagues
         case is UIHostingController<SeasonsView>:
             return .allSeasons(league: .mock())
+        case is UIHostingController<StandingsView>:
+            return .standings(league: .mock(), season: .mock())
         default:
             return .none
         }
-        
-        // TODO: Add cases
     }
 }

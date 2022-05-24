@@ -112,12 +112,21 @@ struct LeagueTextView: View {
                 .bold()
                 .multilineTextAlignment(.center)
             
-            Text(presenter.standingDetails?.data.seasonDisplay ?? "")
-                .font(.title3)
-                .bold()
-                .multilineTextAlignment(.center)
-                .foregroundColor(.gray)
-                .padding(.bottom, 30)
+            if presenter.standingDetails?.data.seasonDisplay != nil {
+                Text(presenter.standingDetails?.data.seasonDisplay ?? "")
+                    .font(.title3)
+                    .bold()
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(.gray)
+                    .padding(.bottom, 30)
+            }
+            
+            if !presenter.isLoading && presenter.standings.isEmpty {
+                Text("No available data, please try again later...")
+                    .font(.title3)
+                    .foregroundColor(.gray)
+                    .padding(.bottom, 30)
+            }
         }
     }
 }
